@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	word-spacing: 0.15em;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -169,8 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
-		word-spacing: 0.04em;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1 {
@@ -1793,7 +1794,8 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	header p {
+
+	 p {
 		margin-top: -1em;
 	}
 
@@ -1885,7 +1887,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		padding-left: 1em;
 	}
 
@@ -2361,7 +2363,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 0 0em 0;
 			width: 100%;
 		}
 
@@ -2836,7 +2838,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
