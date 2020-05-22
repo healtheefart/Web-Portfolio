@@ -170,6 +170,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		word-spacing: 0.04em;
 	}
 
 	h1 {
@@ -267,9 +268,9 @@ input, select, textarea {
 
 	blockquote {
 		border-left: solid 4px #c9c9c9;
-		font-style: italic;
-		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		/* font-style: italic; */
+		margin: 0 0 0.5em 0;
+		padding: 0.3em 0 0.3em 1em;
 	}
 
 	code {
